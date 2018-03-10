@@ -1,0 +1,42 @@
+apply plugin: 'java'
+apply plugin: 'maven'
+
+group = 'com.github.alexyz'
+version = '0.0.1-SNAPSHOT'
+
+description = """secret"""
+
+sourceCompatibility = 1.7
+targetCompatibility = 1.7
+
+task runjar(dependsOn:jar) << {
+    javaexec {
+        main="-jar"; args "./lib/secrets.jar"
+    }
+}
+task execute(type:JavaExec) {
+    main = "sec.SecretsJFrame"
+    classpath = sourceSets.main.runtimeClasspath
+}
+sourceSets {
+    main {
+        java {
+            srcDir 'src'
+        }
+    }
+    test {
+        java {
+            srcDir 'tests'
+        }
+    }
+}
+repositories {
+        
+     maven { url "http://repo.maven.apache.org/maven2" }
+}
+dependencies {
+    compile group: 'org.apache.commons', name: 'commons-lang3', version:'LATEST'
+    compile group: 'commons-io', name: 'commons-io', version:'2.2'
+    compile group: 'junit', name: 'junit', version:'4.11'
+    compile group: 'org.apache.maven.surefire', name: 'maven-surefire-common', version:'2.18.1'
+}

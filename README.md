@@ -1,1 +1,9 @@
-# Intellij_setup_Gradle_SBT_Junit_Of_Existing_Open_Source_Project
+Secret
+=
+
+Password/secret manager
+
+Download
+-
+
+[Runnable jar file](https://www.dropbox.com/s/pnhl8887wo7g2m9/secrets.jar?dl=0)

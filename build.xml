@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project default="jar">
+
+	<property name="jarfile" value="secrets.jar" />
+
+	<target name="jar">
+		<jar destfile="dist/${jarfile}">
+			<manifest>
+				<attribute name="Main-Class" value="sec.SecretsJFrame" />
+			</manifest>
+			<fileset dir="bin" />
+			<!-- run mvn dependency:copy-dependencies first... -->
+			<zipgroupfileset dir="target/dependency" includes="**/*.jar" />
+		</jar>
+	</target>
+
+	<target name="deploy" depends="jar">
+		<copy file="dist/${jarfile}" tofile="${user.home}/Dropbox/Public/${jarfile}" />
+	</target>
+
+</project>

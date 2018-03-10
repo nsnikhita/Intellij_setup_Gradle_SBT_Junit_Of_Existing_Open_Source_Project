@@ -1,0 +1,1 @@
+[error] sbt.librarymanagement.ResolveException: unresolved dependency: org.apache.commons#commons-lang3_2.12;LATEST: not found

@@ -1,0 +1,8 @@
+[0m[[0m[0mdebug[0m] [0m[0m[34mTest run started[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mTest [33mTestAES[0m.[36mtestGetKeyvalidinput[0m started[0m
+[0m[[0m[0mdebug[0m] [0m[0mTest [33mTestAES[0m.[36mtestGetKeyvalidinput[0m finished[0m
+[0m[[0m[0mdebug[0m] [0m[0mTest [33mTestAES[0m.[36mtestgetDecryptcipher[0m started[0m
+[0m[[0m[0mdebug[0m] [0m[0mTest [33mTestAES[0m.[36mtestgetDecryptcipher[0m finished[0m
+[0m[[0m[0mdebug[0m] [0m[0mTest [33mTestAES[0m.[36mtestgetEncryptcipher[0m started[0m
+[0m[[0m[0mdebug[0m] [0m[0mTest [33mTestAES[0m.[36mtestgetEncryptcipher[0m finished[0m
+[0m[[0m[0mdebug[0m] [0m[0m[34mTest run finished: [0m[34m0 failed[0m[34m, [0m[34m0 ignored[0m[34m, 3 total, 9.466s[0m[0m

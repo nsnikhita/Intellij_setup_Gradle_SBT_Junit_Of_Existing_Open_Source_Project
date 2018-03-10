@@ -1,0 +1,23 @@
+[0m[[0m[0mdebug[0m] [0m[0mInvalidating C:\Users\nivesh\.ivy2\cache\junit\junit\jars\junit-4.12.jar: class org.junit.runner.JUnitCore now provided by C:\Users\nivesh\.ivy2\cache\junit\junit-dep\jars\junit-dep-4.10.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial source changes: [0m
+[0m[[0m[0mdebug[0m] [0m[0m	removed:Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0m	added: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0m	modified: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mInvalidated products: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mExternal API changes: API Changes: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mModified binary dependencies: Set(C:\Users\nivesh\.ivy2\cache\junit\junit\jars\junit-4.12.jar)[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial directly invalidated classes: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mSources indirectly invalidated by:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	product: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0m	binary dep: Set(C:\Users\nivesh\IdeaProjects\secret\tests\TestRunner.java, C:\Users\nivesh\IdeaProjects\secret\tests\TestAES.java)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	external source: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mAll sources are invalidated.[0m
+[0m[[0m[0mdebug[0m] [0m[0mRecompiling all 2 sources: invalidated sources (2) exceeded 50.0% of all sources[0m
+[0m[[0m[0minfo[0m] [0m[0mCompiling 2 Java sources to C:\Users\nivesh\IdeaProjects\secret\target\scala-2.12\test-classes ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mAttempting to call com.sun.tools.javac.api.JavacTool@42323e directly...[0m
+[0m[[0m[0mdebug[0m] [0m[0mJava compilation took 0.953741058 s[0m
+[0m[[0m[0mdebug[0m] [0m[0mJava analysis took 0.203062132 s[0m
+[0m[[0m[0mdebug[0m] [0m[0mJava compilation + analysis took 1.16657123 s[0m
+[0m[[0m[0minfo[0m] [0m[0mDone compiling.[0m
